@@ -1,0 +1,47 @@
+/* for id */
+#title {
+    background-color: red;
+}
+
+/* for class */
+.alert-text {
+    color: red;
+}
+
+/* grouping selectors */
+.read,
+.unread {
+    color: white;
+    background-color: black;
+}
+
+/* chaining selectors */
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: blue;
+}
+
+/* descendant combinator */
+.ancestor .contents {
+    color: darkorange;
+}
+
+/* css properties */
+p {
+    /* hex example: */
+    color: #1100ff;
+}
+
+p {
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+}
+
+p {
+    /* hsl example: */
+    color: hsl(15, 82%, 56%);
+    font-family: 'Times New Roman', Times, serif;
+}
